@@ -1,0 +1,454 @@
+
+*{
+		margin: 0; padding: 0; box-sizing:border-box;
+}
+
+html{height:100vh}
+
+body{height:100%; width:100vw; position:relative}
+
+
+/* - - - - common boundary - - - -- -*/
+
+.homemain {
+		 background-color:white; width:100%;
+		 position:absolute;} 
+		 
+.aboutmain {
+		 background-color:white; width:100%;
+		 position:absolute;} 
+
+.contactmain {
+		 background-color:white; width:100%;
+		 position:absolute;} 
+
+
+/* - - - - main common boundary - -- -*/
+
+
+.section1{background-image:url(../img/bgpic.png); background-size:670px 520px; 
+background-repeat:no-repeat; background-position:right bottom; width:100%; height:500px; }
+
+nav{display:flex; align-items:center; padding: 10px 0 0 30px; height:20px;}
+
+.lgrs11 p{font-size:8px;}
+
+.lgrs11 > :nth-child(2){font-weight:bold; font-size:12px; flex-basis:33.3%; text-align:center;}
+
+.headerlink{display:flex; justify-content:space-around; align-items:center;}
+
+.headerlink p{font-size:0.7em; font-weight:bold}
+
+.headerlink {flex-basis:33.3%; text-align:center;}
+
+.lgrs11 > :nth-child(3){color:white; padding:3px 0; background-color: rgb(25, 26, 71); padding:3px 10px; border-radius:1px; margin-left:auto; margin-right:10%; width:10%; text-align:center }
+
+.lgrs12{display:grid; grid-template-columns: 1fr 1fr; grid-template-rows:1fr; height:480px; padding-left:65px;}
+
+.lgrs12l{place-self:center left; }
+
+.lgrs12l :nth-child(1){font-size:25px; font-weight:bold; margin-bottom:10px;} 
+
+.lgrs12l :nth-child(2){font-size:9px; padding-bottom:10px; line-height:1.5;
+  margin-bottom:20px; color:gray;
+} 
+
+.lgrs12l :nth-child(3) :nth-child(1) {background-color:  rgb(25, 26, 71); color:white; margin-right:10px; border-radius:1px} 
+
+.lgrs12l :nth-child(3) p{font-size:8px; display:inline-block; width:100px; text-align:center; border:1px solid  rgb(25, 26, 71); padding:3px 15px; border-radius:1px} 
+
+.lgrs12r{background-image:url(../img/manatscreen.jpg); background-size:80% 70%; background-repeat:no-repeat;background-position:100% 110px;}
+
+/* - - - section1 end boundary - - - -*/
+
+
+
+/* - - - section2 start boundary - - -*/
+
+/* - - for s2 homemain start - - - -*/
+
+.homemain .section2{display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr; height:400px; width:100%; padding-left:65px;}
+
+.homemain .lgrs2l{place-self:center left;} 
+
+.homemain .lgrs2l1{font-size:18px; font-weight:bold; margin-bottom:10px;}
+
+.homemain .lgrs2l2{font-size:8px; line-height:1.5; margin-bottom:40px; color:gray}
+
+.homemain .lgrs2l3{font-size:8px; display:flex; line-height:1.5;}
+
+.homemain .lgrs2l3 img{width:25px; margin-bottom:10px}
+
+.homemain .lgrs2l3l :nth-child(2){font-weight:bold; padding-bottom:5px}
+
+.homemain .lgrs2l3r :nth-child(2){font-weight:bold; padding-bottom:5px;}
+
+.homemain .lgrs2l3l :nth-child(3){color:gray}
+
+.homemain .lgrs2l3r :nth-child(3){color:gray;}
+
+.homemain .lgrs2l3r{padding-left:18px}
+
+
+.homemain .lgrs2r{background-image:url(../img/posinglady.jpg); background-size:85% 70%; background-repeat:no-repeat; background-position:10% 50%;}
+
+/* - - for s2 homemain end - - - -*/
+
+/* - - for s2 aboutmain start - - - -*/
+
+.aboutmain .section2{display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr; height:400px; width:100%; padding-left:65px; border:1px solid ; margin-top:50px}
+
+.aboutmain .lgrs2l{place-self:center left;} 
+
+.aboutmain .lgrs2l1{font-size:18px; font-weight:bold; margin-bottom:10px;}
+
+.aboutmain .lgrs2l2{font-size:8px; line-height:1.5; margin-bottom:40px; color:gray}
+
+.aboutmain .lgrs2l3{font-size:8px; display:flex; line-height:1.5;}
+
+.aboutmain .lgrs2l3 img{width:25px; margin-bottom:10px}
+
+.aboutmain .lgrs2l3l :nth-child(2){font-weight:bold; padding-bottom:5px}
+
+.aboutmain .lgrs2l3r :nth-child(2){font-weight:bold; padding-bottom:5px;}
+
+.aboutmain .lgrs2l3l :nth-child(3){color:gray}
+
+.aboutmain .lgrs2l3r :nth-child(3){color:gray;}
+
+.aboutmain .lgrs2l3r{padding-left:18px}
+
+
+.aboutmain .lgrs2r{background-image:url(../img/posinglady.jpg); background-size:85% 70%; background-repeat:no-repeat; background-position:10% 50%;}
+
+
+.aboutmain .right{padding-left:30px; padding-top:60px;} 
+
+.aboutmain .right{justify-self:center; align-self:center; padding:0px; width:75%}
+
+.aboutmain .right1{font-size:18px; font-weight:bold; margin-bottom:10px;}
+
+.aboutmain .right2{font-size:8px; line-height:1.5; margin-bottom:35px; color:gray}
+
+
+.aboutmain .right3{font-size:8px; display:flex; line-height:1.5;}
+
+.aboutmain .right3 img{width:25px; margin-bottom:10px}
+
+.aboutmain .right3l :nth-child(2){font-weight:bold; padding-bottom:5px}
+
+.aboutmain .right3r :nth-child(2){font-weight:bold; padding-bottom:5px;}
+
+.aboutmain .right3l :nth-child(3){color:gray} 
+
+.aboutmain .right3r :nth-child(3){color:gray}
+
+.aboutmain .right3r{padding-left:50px}
+
+.aboutmain .itemdisplay{background-color:white; padding-left:45px; height:450px; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr; margin-top:50px}
+
+.aboutmain .laughingimg1{height:100%; width:100%;}
+
+.aboutmain .itemdisplay2{padding-left:65px; grid-template-columns:40% 70%;}
+
+.aboutmain .itemdivide{padding-top:15px}
+
+
+
+/* - - for s2 aboutmain end - - - -*/
+
+/* - -- section2 end boundary - - -- -*/
+
+
+
+/* - - - - mobile boundary start-----*/
+
+/* - - mobile boundary for homemain start - - - -*/
+
+@media screen and (max-width:800px) {
+
+.homemain .section1{background-image:url(../img/bgpic.png); background-size:100% 100%; background-repeat:no-repeat; background-position:right bottom; width:100%; height:60vh; margin-bottom:20px}
+
+.homemain nav{display:flex; align-items:center; padding:10px 0 0 5px; height:30px; margin-bottom:5%;}
+
+.homemain nav > :nth-child(2), .headerlink {flex-basis:35%; text-align:center;}
+
+.homemain .lgrs11 p{font-size:10px;}
+
+.homemain .lgrs11 > :nth-child(2){font-weight:bold; font-size:12px;}
+
+.homemain .lgrs11 > :nth-child(3){color:white; padding:3px 0; background-color: rgb(25, 26, 71); padding:3px 10px; border-radius:1px; margin-left:auto; margin-right:5px; width:20%}
+
+.homemain .headerlink{display:flex; justify-content:space-between;}
+
+.homemain .headerlink p{font-size:0.7em; font-weight:bold}
+
+.homemain .lgrs12{display:grid; grid-template-columns: 1fr 1fr; grid-template-rows:1fr; height:90%; padding-left:65px;}
+
+.homemain .lgrs12l{place-self:start left; border:1px solid transparent; padding-top:20px}
+
+.homemain .lgrs12l :nth-child(1){font-size:1em; font-weight:bold; margin-bottom:10px;} 
+
+.homemain .lgrs12l :nth-child(2){font-size:8px; padding-bottom:10px; line-height:1.4;
+  margin-bottom:20px; color:gray; white-space:normal; font-size:cal(1vw+ 1vh)
+}
+
+.homemain .lgrs12l :nth-child(3){
+ height:25px
+}
+
+.homemain .lgrs12l :nth-child(3) :nth-child(1) {background-color:  rgb(25, 26, 71); color:white; margin-right:10px; border-radius:1px;} 
+
+.homemain .lgrs12l :nth-child(3) p{font-size:8px; display:inline-block; width:45%; text-align:center; border:1px solid  rgb(25, 26, 71); padding:3px 10px; border-radius:1px; font-weight:normal} 
+
+.homemain .lgrs12r{background-image:url(../img/manatscreen.jpg); background-size:80% 65%; background-repeat:no-repeat;background-position:right 31%;}
+
+
+
+.homemain .section2{display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr; height:50vh; width:100%; padding-left:65px;}
+
+.homemain .lgrs2l{place-self:center left;} 
+
+.homemain .lgrs2l1{font-size:4vw; font-weight:bold; margin-bottom:10px;}
+
+.homemain .lgrs2l2{font-size:8px; line-height:1.4; margin-bottom:27px; color:gray}
+
+.homemain .lgrs2l3{font-size:8px; display:flex; line-height:1.4;}
+
+.homemain .lgrs2l3 img{width:25px; margin-bottom:10px}
+
+.homemain .lgrs2l3l :nth-child(2){font-weight:bold; padding-bottom:5px}
+
+.homemain .lgrs2l3r :nth-child(2){font-weight:bold; padding-bottom:5px;}
+
+.homemain .lgrs2l3l :nth-child(3){color:gray}
+
+.homemain .lgrs2l3r :nth-child(3){color:gray;}
+
+.homemain .lgrs2l3r{padding-left:18px}
+
+
+.homemain .lgrs2r{background-image:url(../img/posinglady.jpg); background-size:90% 60%; background-repeat:no-repeat; background-position:100% 70%;}
+
+
+.homemain .lgrs12, .homemain .section2 {padding-left: 10px; } 
+}
+
+
+@media screen and (max-width:370px) {
+
+.homemain .section1{ height:47vh; }
+
+} 
+
+/* - - mobile boundary for homemain end - - - -*/
+
+/* - - mobile boundary for aboutmain start - - - -*/
+
+
+@media screen and (max-width:800px) {
+
+.aboutmain .section1{background-image:url(../img/bgpic.png); background-size:100% 100%; background-repeat:no-repeat; background-position:right bottom; width:100%; height:60vh; margin-bottom:20px}
+
+.aboutmain nav{display:flex; align-items:center; padding:10px 0 0 5px; height:30px; margin-bottom:5%;}
+
+.aboutmain nav > :nth-child(2), .headerlink {flex-basis:35%; text-align:center;}
+
+.aboutmain .lgrs11 p{font-size:10px;}
+
+.aboutmain .lgrs11 > :nth-child(2){font-weight:bold; font-size:12px;}
+
+.aboutmain .lgrs11 > :nth-child(3){color:white; padding:3px 0; background-color: rgb(25, 26, 71); padding:3px 10px; border-radius:1px; margin-left:auto; margin-right:5px; width:20%}
+
+.aboutmain .headerlink{display:flex; justify-content:space-between;}
+
+
+.aboutmain .lgrs12{display:grid; grid-template-columns: 1fr 1fr; grid-template-rows:1fr; height:90%; padding-left:65px;}
+
+.aboutmain .lgrs12l{place-self:start left; border:1px solid transparent; padding-top:20px}
+
+.aboutmain .lgrs12l :nth-child(1){font-size:1em; font-weight:bold; margin-bottom:10px;} 
+
+.aboutmain .lgrs12l :nth-child(2){font-size:8px; padding-bottom:10px; line-height:1.4;
+  margin-bottom:20px; color:gray; white-space:normal; font-size:cal(1vw+ 1vh)
+}
+
+.aboutmain .lgrs12l :nth-child(3){
+ height:25px
+}
+
+.aboutmain .lgrs12l :nth-child(3) :nth-child(1) {background-color:  rgb(25, 26, 71); color:white; margin-right:10px; border-radius:1px;} 
+
+.aboutmain .lgrs12l :nth-child(3) p{font-size:8px; display:inline-block; width:45%; text-align:center; border:1px solid  rgb(25, 26, 71); padding:3px 10px; border-radius:1px; font-weight:normal} 
+
+.aboutmain .lgrs12r{background-image:url(../img/manatscreen.jpg); background-size:80% 65%; background-repeat:no-repeat;background-position:right 31%;}
+
+
+.aboutmain .itemdisplay{background-color:white; display:grid; grid-template-columns:1fr 1fr; gap:10px; height:60%; padding-bottom:20px; margin-top:60px
+}
+
+.aboutmain .laughingimg1{height:70%; width:100%; place-self:center }
+
+.aboutmain .imgdiv {background-color:rgb(245, 246, 251); display:grid }
+
+.aboutmain .itemdivide{padding-top:15px}
+
+.aboutmain .itemdisplay, .aboutmain .lgrs12, .aboutmain .section2 {padding-left: 10px; } 
+
+
+.aboutmain .right{ width:100%; align-self:start}
+
+.aboutmain .right1{font-size:1em; font-weight:bold; margin-bottom:10px;}
+
+.aboutmain .right2{font-size:8px; line-height:1.5; margin-bottom:25px; color:gray}
+
+
+.aboutmain .right3{font-size:8px; display:flex; line-height:1.5;}
+
+.aboutmain .right3 img{width:25px; margin-bottom:10px}
+
+.aboutmain .right3l :nth-child(2){font-weight:bold; padding-bottom:5px}
+
+.aboutmain .right3r :nth-child(2){font-weight:bold; padding-bottom:5px;}
+
+.aboutmain .right3l :nth-child(3){color:gray} 
+
+.aboutmain .right3r :nth-child(3){color:gray}
+
+.aboutmain .right3r{padding-left:10px; }
+
+}
+
+
+@media screen and (max-width:370px) {
+
+.aboutmain .section1{ height:47vh; }
+
+/* - - mobile boundary for aboutmain end - - - -*/
+
+} 
+
+/* - - - - mobile end boundary -----*/
+
+
+
+/* - - contactus boundary start -----*/
+
+*{box-sizing:border-box; padding:0; margin:0}
+html{height:100vh}
+body{height:100%; width:100vw; position:relative}
+
+.contactmain nav{display:flex; align-items:center; padding:10px 0 0 5px; height:30px; margin-bottom:5%;}
+
+.contactmain nav .headerlink {flex-basis:20%; text-align:center;}
+
+.contactmain .headerlink{display:flex; justify-content:space-between;align-items:center; }
+
+.contactmain .headerlink p{font-size:1em; font-weight:bold}
+
+
+.contactmain header{text-align:center; font-size:2em; margin-top:20px; margin-bottom:25px;}
+
+.contactmain label{font-size:1em; margin-bottom:2px}
+
+.contactmain form{min-height:40%; width:40vw; background-color:rgb(245, 246, 251); margin-left:30vw; display:flex; flex-direction:column; gap:40px; position:absolute; padding-top:30px}
+
+.contactmain form > div{ position:relative; display:flex; flex-direction:column; justify-content:flex-end;}
+
+.contactmain input{ position:relative; padding-left:3px; font-size: 1.2em; height:35px; background-color:white; border:1px solid rgb(25, 26, 71); border-radius:3px}
+
+.contactmain textarea {height:150px; font-size:1.2em; background-color:white; border:1px solid rgb(25, 26, 71); border-radius:3px; resize:none}
+
+.fd1, .fd2, .fd3, .fd4{height:40%; width:80%; margin-left:10%;}
+
+.fd5{height:35%; width:80%; margin-left:10%}
+
+.contactmain input[type="submit"]{font-size:1em; width:80%; margin-left:10%; background-color:rgb(25, 26, 71); color:white}
+
+
+@media screen and (max-width :800px) {
+
+.contactmain nav .headerlink {flex-basis:35%; text-align:center;}
+
+.contactmain .headerlink p{font-size:0.7em; }
+
+.contactmain header{text-align:center; font-size:1.5em; margin-top:20px; margin-bottom:10px;}
+
+.contactmain form{min-height:90%; width:90vw; background-color:rgb(245, 246, 251); margin-left:5vw; display:flex; flex-direction:column; gap:30px; position:absolute; padding-top:30px}
+
+.contactmain form > div{ display:flex; flex-direction:column; justify-content:flex-end;}
+
+.contactmain input{height:35px; background-color:white;}
+
+.contactmain textarea {height:100px; background-color:white;}
+
+} 
+
+
+.contactmain input:focus, .contactmain textarea:focus{outline-color : rgb(25, 26, 71);}
+
+.redborder{border:2px solid red;}
+
+.firstnameerror::after{
+  content:"Please enter your firstname"; 
+  color:red;
+  position:absolute;
+  top:100%;
+  left:0;
+  font-size:0.8em;
+}
+
+.lastnameerror::after {
+  content: "Please enter your lastname";
+  color: red;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-size: 0.8em;
+}
+
+.emailerror::after {
+  content: "Please enter a valid email address";
+  color: red;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-size: 0.8em;
+ 
+}
+
+.numbererror::after {
+  content: "Please enter a valid phone number";
+  color: red;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-size: 0.8em;
+}
+
+.messageerror::after {
+  content: "Please enter a message";
+  color: red;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-size: 0.8em;
+}
+
+/* - - contactus boundary start -----*/
+
+
+.homeload{background-color:black; 
+color:white; padding-left:3px; 
+padding-right:3px; padding-top:3px; 
+border-radius: 4px 4px 0 0}
+
+.aboutload{background-color:black; 
+color:white; padding-left:3px; 
+padding-right:3px; padding-top:3px; 
+border-radius: 4px 4px 0 0}
+
+.contactload{background-color:black; 
+color:white; padding-left:3px; 
+padding-right:3px; padding-top:3px; 
+border-radius: 4px 4px 0 0}
