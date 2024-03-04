@@ -198,13 +198,18 @@ if (regex.test(phoneNumberInput)) {
   if (item.parentNode.className.includes(item.errorClass)) {
     item.parentNode.classList.remove(item.errorClass);
   }
-} 
+}else{
+  markBorder(item);
+  writeError(item);
+}
     
-  }else if(item.id == email){
+  }else if(item.id == 'email'){
+    console.log ('is email');
     let emailInput = item.value;
-    let regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    let regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+[@][a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     
     if (regex.test(emailInput)) {
+      console.log ('email parsed');
   if (item.style.borderColor == 'red') {
     item.style.borderColor = 'black';
   }
@@ -212,11 +217,14 @@ if (regex.test(phoneNumberInput)) {
   if (item.parentNode.className.includes(item.errorClass)) {
     item.parentNode.classList.remove(item.errorClass);
   }
+}else {
+  markBorder(item);
+  writeError(item);
 }
 
-    
-            } 
-  else{
+  } 
+  
+  else if(item.id == 'firstname' || item.id == 'lastname' || item.id == 'message') {
         
    if (item.style.borderColor == 'red') {
       item.style.borderColor = 'black';
