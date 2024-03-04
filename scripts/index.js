@@ -167,7 +167,6 @@ function errorMarker(item) {
 
 function markBorder(item) {
   if (!(item.style.borderColor == 'red') )  {
-    console.log ('border color= '+ item.style.borderColor );
     item.style.borderColor = 'red';
   }
 
@@ -192,8 +191,8 @@ function errorRemover(item) {
   let regex = /^(08|09|07)[0-9]{9}$/;
 
 if (regex.test(phoneNumberInput)) {
-  if (item.style.borderColor='red') {
-    item.style.border='1px solid';
+  if (item.style.borderColor == 'red') {
+    item.style.borderColor = 'black';
   }
   
   if (item.parentNode.className.includes(item.errorClass)) {
@@ -206,8 +205,8 @@ if (regex.test(phoneNumberInput)) {
     let regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     
     if (regex.test(emailInput)) {
-  if (item.style.borderColor = 'red') {
-    item.style.border = '1px solid';
+  if (item.style.borderColor == 'red') {
+    item.style.borderColor = 'black';
   }
   
   if (item.parentNode.className.includes(item.errorClass)) {
@@ -219,8 +218,8 @@ if (regex.test(phoneNumberInput)) {
             } 
   else{
         
-   if (item.style.borderColor = 'red') {
-      item.style.border = '1px solid';
+   if (item.style.borderColor == 'red') {
+      item.style.borderColor = 'black';
     }
   
     if (item.parentNode.className.includes(item.errorClass)) {
